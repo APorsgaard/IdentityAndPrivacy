@@ -1,0 +1,16 @@
+<?php COOKIE_start(); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manual Build Login Integration</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<script type="text/javascript" src="./fb.js"></script>
+<div id="content" style="width: 70%; float: left;">
+	<h2>Welcome to the Manual Build Login Integration <?php if (isset($_COOKIE['name'])){ echo $_COOKIE['name'];} ?></h2>
+</div>
+
+<div class="Facebook-Login-Button" data-scope="public_profile,email" onlogin="checkLoginState();"></div>
+</body>
+</html>
