@@ -7,7 +7,7 @@ function statusChangeCallback(response) {
     // for FB.getLoginStatus().
     if (response.status === 'connected') {
     	// Logged into your app and Facebook.
-      	window.location.replace('www.facebook.com');
+      	window.location.replace('https://aporsgaard.github.io/IdentityAndPrivacy/ManuelBuild/ManualBuildIntegration.html');
     } else if (response.status === 'not_authorized') {
       	// The person is logged into Facebook, but not your app.
     } else {
